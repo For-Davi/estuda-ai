@@ -1,0 +1,16 @@
+# --- Arquivos locais do desenvolvedor ---
+CLAUDE.md
+
+# --- Lixo do sistema operacional ---
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# --- Editores ---
+.vscode/
+.idea/
+
+# --- Segredos ---
+.env
+.env.*
+!.env.example
