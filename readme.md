@@ -1,10 +1,10 @@
-# Aprovei.ai
+# Estuda.ai
 
 > Plataforma de estudos para concursos públicos guiada pelo edital.
 
 ![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-Você envia o PDF do edital e a IA extrai cargos, vagas, salários, datas e o conteúdo programático. Depois você revisa os dados, escolhe o cargo e diz quantas horas tem por dia. A partir disso, o Aprovei.ai monta um cronograma com revisões espaçadas até a data da prova, oferece resumos e questões por tópico e mantém você estudando com ofensiva e XP, no estilo do Duolingo.
+Você envia o PDF do edital e a IA extrai cargos, vagas, salários, datas e o conteúdo programático. Depois você revisa os dados, escolhe o cargo e diz quantas horas tem por dia. A partir disso, o Estuda.ai monta um cronograma com revisões espaçadas até a data da prova, oferece resumos e questões por tópico e mantém você estudando com ofensiva e XP, no estilo do Duolingo.
 
 ## Como funciona
 
