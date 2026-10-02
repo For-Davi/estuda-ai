@@ -24,7 +24,7 @@ React (PWA) ──REST/JWT──► Spring Boot (monólito modular) ──► Po
                                   │                    ▲
                            publica job          publica resultado
                                   ▼                    │
-                               RabbitMQ ◄──────► IA Python (FastAPI) ──► LLM / MinIO
+                               RabbitMQ ◄──────► IA Python (FastAPI) ──► LLM / S3 (RustFS)
 ```
 
 - **Backend:** módulos `identity`, `edital`, `planning`, `study`, `gamification` e `billing`, cada um em camadas (`domain → application → infrastructure / presentation`). O `domain` é Java puro, e essa regra é verificada por testes com ArchUnit.
@@ -39,7 +39,7 @@ As decisões de arquitetura estão registradas em [`docs/adr/`](docs/adr/).
 | Backend | Java 21, Spring Boot 3, Spring Security + JWT, JPA, MongoDB, Flyway, AMQP |
 | Frontend | React, TypeScript, Vite, TanStack Query, Tailwind + shadcn/ui, React Hook Form + Zod |
 | IA | Python 3.12, FastAPI, Pydantic, PyMuPDF, aio-pika, uv |
-| Infra | Docker Compose, PostgreSQL, MongoDB, RabbitMQ, MinIO, GitHub Actions |
+| Infra | Docker Compose, PostgreSQL, MongoDB, RabbitMQ, RustFS (S3), GitHub Actions |
 | Testes | JUnit 5, Mockito, AssertJ, Testcontainers, ArchUnit, Vitest, pytest |
 
 ## Estrutura do repositório
